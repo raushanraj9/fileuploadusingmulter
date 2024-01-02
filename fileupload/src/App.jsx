@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Uploadfile from './components/Uploadfile';
 
 function App() {
   return (
     <>
-    <h1 className='text-red-500'>Hello</h1>
+
+    <Uploadfile />
     </>
   )
 }
